@@ -62,12 +62,7 @@ int main()
 }
 //functions
 
-Node *create_node(char data) {
-    Node *new_node = malloc(sizeof(Node));
-    new_node->data = data;
-    new_node->next = NULL;
-    return new_node;
-}
+
 
 LinkedList *create_linked_list() {
     LinkedList *list = malloc(sizeof(LinkedList));
